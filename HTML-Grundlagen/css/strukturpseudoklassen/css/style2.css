@@ -3,6 +3,7 @@ body { padding: 10px; }
 :first-child { border: 2px solid red;  }
 :last-child { border: 2px solid black;  }
 tr:nth-child(odd) { background: lightgray; }
+td:nth-child(2) { background: yellow; }
 tr:nth-child(even) { background: grey; }
 li:nth-last-child(odd) { color: blue; }
 li:nth-last-child(even) { color: red; }

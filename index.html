@@ -2,9 +2,25 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<h1>Yeah! Die erste Webseite!</h1>
-		<p>Diese Änderung kommt von der GitHubSeite</p>
+		<script>
+			function fallzeitberechnung(hoehe, konstante)
+				{
+					return Math.sqrt((2*hoehe)/konstante);
+				}
+			
+			let hoehe=15;
+			let gravitationskonstante=9.81;
+			let gravitationskonstanteMond=1.62;
+			let ergebnis = fallzeitberechnung(hoehe,gravitationskonstante);
+			let ergebnisMond = fallzeitberechnung(hoehe,gravitationskonstanteMond);
+			
+			console.log(ergebnis);
+			console.log(ergebnisMond);
+		</script>
+		<h1>Pflanzenwelt</h1>
+		<p>Herzlich Willkommen</p>
 	</body>
 </html>
